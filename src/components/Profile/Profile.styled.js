@@ -18,7 +18,7 @@ export const InfoBox = styled.div`
 
 export const UserAvatar = styled.img`
   width: 100px;
-  heigth: auto;
+  height: auto;
   border-radius: 50%;
   display: block;
   margin-top: 30px;
@@ -50,12 +50,13 @@ export const StatItem = styled.li`
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-right: 1px solid #80808054;
-  border-top: 1px solid #80808054;
+  border-right: 2px solid #80808054;
+  border-top: 2px solid #80808054;
   width: 90px;
   padding: 10px 0;
   background-color: #dad8d8;
   border-radius: 0 0 4px 4px;
+  gap: 8px;
 
   :last-child {
     border-right: none;
